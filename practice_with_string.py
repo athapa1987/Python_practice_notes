@@ -1,11 +1,13 @@
 # using \n for next line and \t for tabs. I hope this will work. 
 print ('hello! I hope you are doing well.\n\t I wanted to tell you that this line goes down with one tab.\n\n I putting this two line below. \n\t\t I hope it worked one enter or two tabs.')
 print ('I hope it must had worked.') 
+
 # I am trying to print message in lower, tittle and upper case. Also trying to put align to the center, right and left.
 print ('i love you honey'.upper ())
 print ('I am good.'.title().center(20))
 print ('IT WAS A WONDERFUL DAY.'.lower().rjust(100))
 print (f"{'I am able to print text at least in python.':>100}".upper()) # also to print in right.
+
 #   assigning variable, changing cases, adjusting the lines, finding, replace and length of the variable. 
 message = 'hello I Will come home late. I hAVe a meeting.'
 print (message.upper().rjust(100))
@@ -20,10 +22,12 @@ print (message)
 print (message [0:5])
 print (message.center (50))
 print (message.lower().find('home'))
+
 # Task:
 customer = "   ashok thapa   "
 email = "ASHOK@GMAIL.COM"
 message = "hello ashok, welcome to python programming"
+
 #stripping spaces from sustomer name. 
 customer = customer.strip().title()
 print (customer)
