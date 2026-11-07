@@ -61,7 +61,7 @@ print ((('='*5) + 'This will ask the quantity and price and caculate total price
 quantity = input ('Please enter the quantity?:\t\t'.title())
 price = input ('Please enter the price of product?:\t\t'.title())
 total_price = int(quantity) * float(price)
-print (f'Your Total is {total_price}\n')
+print (f'Your Total is {total_price:.2f}\n')
 
 print ((('='*5) + 'welcome to your age calculator' + ('='*5)).center(50).upper())
 birth_year = input ('please enter your birth year:\t\t'.upper())
